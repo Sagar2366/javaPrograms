@@ -1,9 +1,9 @@
 pipeline {
     agent any 
     stages {
-        stage('clone repo') { 
+        stage('Build') { 
             steps {
-                sh "https://github.com/Sagar2366/javaPrograms.git"
+                sh "running build "
             }
         }
         stage('Test') { 
