@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('clone repo') { 
             steps {
-                sh "git clone https://github.com/Sagar2366/javaPrograms.git"
+                sh "https://github.com/Sagar2366/javaPrograms.git"
             }
         }
         stage('Test') { 
